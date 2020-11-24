@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox</title>
+    <meta charset="UTF-8" />
+    <link rel="StyleSheet" href="./estilos.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script src="./scripts.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="contenedor1">
+            <div class="item1">Caja 1</div>
+            <div class="item2">Caja 2</div>
+            <div class="item3">Caja 3</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <form>
+            <div class="form-group row">
+              <div class="col-sm-12">
+                <div class="form-group row">
+                  <label for="seleccion1" class="col-sm-3 col-form-label"
+                    >flex-direction:</label
+                  >
+                  <div class="col-sm-9">
+                    <select id="seleccion1" class="form-control">
+                      <option>row</option>
+                      <option>column</option>
+                      <option>row-reverse</option>
+                      <option>column-reverse</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12">
+                <div class="form-group row">
+                  <label for="seleccion2" class="col-sm-3 col-form-label"
+                    >justify-content:</label
+                  >
+                  <div class="col-sm-9">
+                    <select id="seleccion2" class="form-control">
+                      <option>flex-start</option>
+                      <option>flex-end</option>
+                      <option>center</option>
+                      <option>space-between</option>
+                      <option>space-around</option>
+                      <option>space-evenly</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12">
+                <div class="form-group row">
+                  <label for="seleccion4" class="col-sm-3 col-form-label"
+                    >align-items:</label
+                  >
+                  <div class="col-sm-9">
+                    <select id="seleccion4" class="form-control">
+                      <option>stretch</option>
+                      <option>flex-start</option>
+                      <option>flex-end</option>
+                      <option>center</option>
+                      <option>baseline</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

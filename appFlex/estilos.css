@@ -1,0 +1,24 @@
+#contenedor1{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    background-color: #000;  
+    height: 300px;
+    color:white;
+    font-size:2rem;
+  }
+  
+  .item1 {
+    background-color: #0078A6;
+  }
+  .item2 {
+    background-color: #0084B6;
+  }
+  .item3 {
+    background-color: #008CC1;
+  }
+  
+  html {
+    margin:0.2rem;
+  }
+  
